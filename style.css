@@ -1,0 +1,152 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #8cb9e6;
+    color: #333;
+}
+p {
+  margin: 5px 0;     
+  line-height: 1.5;   
+}
+/* HEADER */
+header {
+    background: #111;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+nav {
+    margin-top: 10px;
+}
+nav a {
+    color: white;
+    margin: 8px;
+    text-decoration: none;
+    font-size: 14px;
+}
+nav a:hover {
+    color: #ff9800;
+}
+/* HERO */
+#home {
+    height: 300px;
+    background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c') center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glass {
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+/* CARD SECTIONS */
+.card {
+    background: whitesmoke;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* IMAGES FIX */
+img {
+    width: 90%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+/* EDUCATION */
+.edu-box {
+    text-align:auto;
+}
+/* SKILLS */
+.skills-box {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: auto;
+}
+.skills-box span {
+    background: #ee5151;
+    color: white;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+/* CERTIFICATES GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+.grid img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+/* PROJECTS */
+.project-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.project-card {
+    background: #5aed6e;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #111;
+    color: white;
+}
+@media (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        display: block;
+        width: 100%;
+        padding: 8px;
+    }
+    #home {
+        height: 200px;
+    }
+    .glass {
+        width: 90%;
+        font-size: 14px;
+    }
+    .card {
+        margin: 10px;
+        padding: 15px;
+    }
+    /* IMAGES FULL WIDTH */
+    img {
+        width: 80%;
+        max-width: 50%;
+    }
+    /* GRID STACK */
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    /* PROJECT STACK */
+    .project-box {
+        flex-direction: column;
+    }
+}
