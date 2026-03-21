@@ -28,7 +28,6 @@ nav a {
 nav a:hover {
     color: #ff9800;
 }
-/* HERO */
 #home {
     height: 300px;
     background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c') center/cover;
@@ -148,5 +147,65 @@ footer {
     /* PROJECT STACK */
     .project-box {
         flex-direction: column;
+    }
+}
+@media (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    #home {
+        height: 220px;
+    }
+    .glass {
+        width: 90%;
+        font-size: 14px;
+        padding: 15px;
+    }
+    .card {
+        margin: 10px;
+        padding: 15px;
+    }
+    img {
+        width: 100%;
+        max-width: 100%;
+    }
+    .edu-box {
+        text-align: center;
+    }
+    .skills-box {
+        justify-content: center;
+    }
+    .skills-box span {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    .skills-box p {
+        width: 100%;
+        text-align: center;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .project-box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-card {
+        width: 90%;
+        text-align: center;
     }
 }
