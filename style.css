@@ -123,48 +123,6 @@ footer {
     nav a {
         display: block;
         width: 100%;
-        padding: 8px;
-    }
-    #home {
-        height: 200px;
-    }
-    .glass {
-        width: 90%;
-        font-size: 14px;
-    }
-    .card {
-        margin: 10px;
-        padding: 15px;
-    }
-    /* IMAGES FULL WIDTH */
-    img {
-        width: 80%;
-        max-width: 50%;
-    }
-    /* GRID STACK */
-    .grid {
-        grid-template-columns: 1fr;
-    }
-    /* PROJECT STACK */
-    .project-box {
-        flex-direction: column;
-    }
-}
-@media (max-width: 600px) {
-    header {
-        padding: 10px;
-    }
-    h1 {
-        font-size: 20px;
-    }
-    nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    nav a {
-        display: block;
-        width: 100%;
         padding: 10px;
         text-align: center;
     }
