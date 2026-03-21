@@ -29,7 +29,8 @@ nav a:hover {
     color: #ff9800;
 }
 #home {
-    height: 300px;
+    min-height: 300px;
+    height: auto;
     background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c') center/cover;
     display: flex;
     justify-content: center;
