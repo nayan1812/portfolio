@@ -60,8 +60,8 @@ img {
     margin: auto;
 }
 .profile-photo {
-    width: 150px;  /* adjust size as needed */
-    height: 200px; /* passport photo aspect ratio */
+    width: 80px;  /* adjust size as needed */
+    height: 120px; /* passport photo aspect ratio */
     float: right;
     margin: 0 0 15px 15px;
     border-radius: 8px;
