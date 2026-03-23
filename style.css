@@ -59,6 +59,14 @@ img {
     display: block;
     margin: auto;
 }
+.profile-photo {
+    width: 150px;  /* adjust size as needed */
+    height: 200px; /* passport photo aspect ratio */
+    float: right;
+    margin: 0 0 15px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 /* EDUCATION */
 .edu-box {
     text-align:auto;
